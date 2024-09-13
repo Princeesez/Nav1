@@ -1,0 +1,24 @@
+.container ul li {
+    display: inline;
+    padding: 20px;
+}
+ul {
+    text-align: center;
+    background-color: blanchedalmond;
+    font-size: 32px;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul::after {
+    background-color: green;
+}
+a {
+    text-decoration: none;
+}
+li:hover {
+    background-color: aquamarine;
+}
